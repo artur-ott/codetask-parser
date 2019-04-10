@@ -79,6 +79,7 @@ After that you can start the server with the created configuration as follows:
 # start server with the created configuration
 ./codetask-parser -Dconfig.file="<path to the conf file>/prod.conf"
 ```
+**IMPORTANT:** If the server was previously closed by a *kill*, the *RUNNING_PID* file in the root directory must be deleted.
 
 ### Github-Webhook
 Now you can set up the webhook for the desired repository.
